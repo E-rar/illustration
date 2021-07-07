@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/*general styleFarbe: #202020, #24bff2, #fff, #F5FBFE.
+*/
+body{
+    margin:0 0 0 7%;
+    font-family:Merriweather,Lato,Arial, Helvetica, sans-serif;
+    color:#202020;
+}
+a{
+    text-decoration:none;
+    color:#202020;
+    font-size:1.5vh;
+}
+h2{
+    font-size:6vh;
+}
+p{
+    font-weight: 100;
+    font-size:2.8vh;
+    line-height:5vh;
+    color:rgb(109, 109, 109);
+}
+section{
+    max-height:80vh;
+}
+section img{
+    height:100%;
+    width:40%;
+    display:inline-block;
+}
+article{
+    width:50%;
+    height:100%;
+    display:inline-block;
+}
+
+/*Nav*/
+nav li{
+    padding-left:2%;
+}
+nav ul,nav li{
+    list-style:none;
+    display:inline-block;
+    font-family: Lato;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+nav ul{
+    padding-left:85%;
+    width:20%;
+    margin:0;
+}
+/*Erste section mit gif*/
+section:nth-child(1){
+    margin-bottom:15%;
+
+}
+section:nth-child(1) img{
+    padding:5% 0 0 8%;
+}
+section:nth-child(1) h2{
+    margin-top:0;
+}
+section:nth-child(1) a:first-of-type{
+    border:solid 1px black;
+    color:#fff;
+    background-color:black;
+    font-family: Lato;
+    font-size:0.5em;
+    padding:2%;
+    border-radius:0.5vh;
+    margin-right:1%;
+}
+section:nth-child(1) a:last-of-type{
+    border:solid 1px #cbcfd1 ;
+    color:black;
+    background-color:#F5FBFE;
+    font-family: Lato;
+    font-size:0.5em;
+    padding:2%;
+    border-radius:0.5vh;
+    margin-right:1%;
+}
+/*zweite section*/
+section:nth-child(2){
+    margin-bottom:15%;
+
+}
+section:nth-child(2) article{
+    padding-left:8%;
+    width:40%;  
+}
+section:nth-child(2) h2{
+    margin-top:0;
+}
+/*dritte section*/
+section:nth-child(3){
+    margin-bottom:25%;
+
+}
+section:nth-child(3) article{
+    padding-right:8%; 
+    width:40%; 
+}
+section:nth-child(3) h2{
+    margin-top:0;
+}
+/*vierte section*/
+section:nth-child(4){
+    text-align:center;
+    margin-bottom:8%;
+}
+section:nth-child(4) article:nth-of-type(1){
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+}
+section:nth-child(4) article:nth-of-type(2){
+    width:100%;
+    margin:7% 0;
+}
+section:nth-child(4) article:nth-of-type(2) img{
+    width:20%;
+    padding-right:10%;
+}
+section:nth-child(4) article:nth-of-type(3){
+    width:60%;
+    text-align:center;
+}
+
+/*fünfte section mit den sechs bildern*/
+section:nth-child(5) article{
+    width:100%;
+    margin-bottom: 8%;
+
+}
+section:nth-child(5) article img{
+    width:45%;
+    
+}
+section:nth-child(5) article img:nth-last-of-type(2){
+    padding-right:5%;
+}
+section:nth-child(5){
+    height:100%;
+    margin:35% 0 55% 0;
+}
+/*sechste section mit dem become member button*/
+section:nth-child(6){
+    text-align:center;
+    
+}
+section:nth-child(6) article:nth-child(1){
+    width:69%;
+    margin:0 auto;
+    text-align:center;
+    display:block;
+}
+section:nth-child(6) article:nth-child(2){
+    width:25%;
+    margin:0 auto;
+    text-align:center;
+    margin-bottom:15%;/*Abstand gewinnen zum footer*/
+}
+section:nth-child(6) h4{ /*stylen der liste*/
+    color:rgb(109, 109, 109);
+}
+section:nth-child(6) ul{
+    list-style:none;
+    font-size:2.3vh;
+    padding:0;
+}
+section:nth-child(6) li{
+    padding-bottom:2vh;
+}
+section:nth-child(6) a{ /*stylen vom pseudo button*/
+    border:solid 1px #24bff2;
+    color:#fff;
+    background-color: #24bff2;
+    font-size:2vh;
+    padding:3% 12% 3% 12%;
+    border-radius:3px;
+    
+}
+section:nth-child(6) a:hover{
+    background-color:#187797; ;
+}
+/*footer*/
+footer{
+    text-align:center;
+    margin-top:38%;
+}
+#contact{
+    list-style:none;
+    padding:0;
+    
+}
+footer #contact li:nth-child(odd) a{
+    color:lightgray;
+}
+
+footer #contact li:nth-child(odd) a:hover{
+    color:gray;
+}
+#social ,#social li{
+    display:inline-block;
+}
+#social{
+    padding:0;
+}
+#social li:nth-child(1)::before{
+    content:"●";
+    color:#1877F2;
+}
+#social li:nth-child(2)::before{
+    content:"●";
+    color:#E4405F;
+}
+#social li:nth-child(3)::before{
+    content:"●";
+    color:#1DA1F2;
+}
+#social li:nth-child(4)::before{
+    content:"●";
+    color:#CD201F;
+}
